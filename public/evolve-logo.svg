@@ -1,0 +1,25 @@
+<svg width="550" height="170" viewBox="0 0 550 170" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="whiteGlow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <g filter="url(#whiteGlow)">
+    <!-- First E with three horizontal bars and vertical connector -->
+    <rect x="80" y="15" width="55" height="6" fill="#ffffff"/>
+    <rect x="80" y="43" width="55" height="6" fill="#ffffff"/>
+    <rect x="80" y="43" width="6" height="25" fill="#ffffff"/>
+    <rect x="80" y="68" width="55" height="6" fill="#ffffff"/>
+
+    <!-- VOLVE as ultra-thin text -->
+    <text x="150" y="76" font-family="'Arial', 'Helvetica', sans-serif" font-size="90" font-weight="100" fill="#ffffff" letter-spacing="10">VOLVE</text>
+  </g>
+
+  <!-- MERCHANT SERVICES (centered under EVOLVE) -->
+  <text x="275" y="130" font-family="'Arial', 'Helvetica', sans-serif" font-size="32" font-weight="200" fill="#ffffff" text-anchor="middle" letter-spacing="8" filter="url(#whiteGlow)">MERCHANT SERVICES</text>
+</svg>
